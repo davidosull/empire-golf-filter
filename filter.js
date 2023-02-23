@@ -9,7 +9,7 @@ function filterDates(month) {
     // Get date string
     const date = event.querySelector('span b').innerHTML;
 
-    // Parse date strng
+    // Parse date string
     const frags = date.split('/');
 
     // Hide events outside criteria
